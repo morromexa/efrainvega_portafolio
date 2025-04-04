@@ -1,7 +1,17 @@
-/* Add styles here */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Yatra+One&family=Zeyada&display=swap');
+
+
 *{
-    padding: 0;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:"Quicksand";
+    font-size: small;
+}
+
+h1 {
+    font-size: 20px;
 }
 
 #hero{
@@ -12,7 +22,20 @@
     text-align: center;
 }
 
+#aboutme  {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+
 .logoefra{
     width: 60vh;
     padding: 20px;
+}
+
+#carouselExampleCaption {
+
+    width: 80%;
 }
